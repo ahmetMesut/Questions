@@ -1,0 +1,19 @@
+<html layout:decorator="layout">
+   <div layout:fragment="content">
+        <form method="post" name="user_form" id="user_form" action="/user/createUser" role="form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <textarea rows="1" class="form-control" id="name" name="name"/>
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname</label>
+                <textarea rows="1" class="form-control" id="surname" name="surname"/>
+            </div>
+            <div class="form-group">
+                <label for="adress">Adress</label>
+                <textarea rows="1" class="form-control" id="adress" name="adress"/>
+            </div>
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</html>
